@@ -20,7 +20,8 @@ namespace TestFitcareApp.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            //return "value";
+            return new string[] { "value1", "value2" };
         }
 
         // POST api/values
